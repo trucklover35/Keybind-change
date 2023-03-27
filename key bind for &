@@ -1,0 +1,22 @@
+{
+    "title": "Replace ampersand with caret",
+    "rules": [
+        {
+            "description": "Replace ampersand with caret",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "ampersand"
+                    },
+                    "to": [
+                        {
+                            "key_code": "caret"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
+
